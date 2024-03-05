@@ -1,9 +1,18 @@
 ---
-
+const pageTitle = "Homepage";
 ---
-<a href="/">Home</a>
-<a href="/about/">About</a>
-<a href="/blog/">Blog</a>
-<main>
-	<h1>Astro test</h1>
-</main>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+	  <a href="/">Home</a>
+	  <a href="/about/">About</a>
+	  <a href="/blog/">Blog</a>
+	  <main>
+		  <h1>{pageTitle}</h1>
+	  </main>
+  </body>
+</html>
